@@ -1,0 +1,8 @@
+.nav-links {
+    display: inline-block;
+}
+
+.nav-links:hover {
+    background-color: #00A78E; /*will change background-color of element on hover */
+    color: #fff !important; /*will change color of text within the element on hover */
+}

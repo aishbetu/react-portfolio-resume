@@ -4,6 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import 'bootstrap/dist/css/bootstrap.css';
+import './index.scss'
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+import { faMapMarkerAlt, faPhone, faEnvelopeOpen } from "@fortawesome/free-solid-svg-icons";
+library.add(fab, faMapMarkerAlt, faPhone, faEnvelopeOpen);
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
